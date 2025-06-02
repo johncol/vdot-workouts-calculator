@@ -1,0 +1,16 @@
+.layoutContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  min-height: 100svh;
+}
+
+@media (max-width: 600px) {
+  .layoutContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+} 
